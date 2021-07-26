@@ -1,0 +1,70 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	max-width: 1180px;
+	margin: 0px auto;
+}
+.content {
+	flex: 1 1 auto;
+}
+.header {  
+    padding: 50px 0;
+	background-color: #445162; 
+    background-image: url(img/background_Picture.jpg);
+}
+.header__row {
+    display: flex;
+	justify-content: space-between;
+}
+.header__body {
+    color: #ffffff;
+	padding: 0px 20px 0px 0px;
+}
+.header__title {
+    margin: 0px 0px 40px 0px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 60px;
+}
+.header__img{
+}
+.title {
+	color: #445161;
+	font-size: 30px;
+}
+.aboutMe{
+    padding: 50px 0;
+}
+.aboutMe__body{
+    flex: 1 1 auto;
+	padding: 0px 0px 0px 38px;
+}
+.aboutMe__text{
+        font-size: 16px;
+        color: #333;
+        line-height: 24px;
+}
+.aboutMe__text p{
+    margin: 0px 0px 15px 0px;
+}
+.experiance{
+    background-color: #f5f5f5;
+	padding: 50px 0 20px 0;
+}
+.experiance__row{
+    display: flex;
+	flex-wrap: wrap;
+	margin: 0px -8px;
+}
+.experiance__column {
+    flex: 0 1 50%;
+	padding: 0px 8px;
+	margin: 0px 0px 30px 0px;
+}
